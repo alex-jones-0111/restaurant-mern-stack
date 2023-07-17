@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Sumana:wght@700&display=swap");
+
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 90vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 10px;
+  font-family: "Merriweather", serif;
+ 
+  background-image: linear-gradient( #1d20dd, #fff);
+
+  
+}
+
+.auth-form-container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 400px) {
+  .auth-form-container {
+    padding: 105px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    position: fixed;
+    left: 90px;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+ 
+}
+
+.link-btn {
+  background: none;
+  color: white;
+}
+.background{
+  width: auto;
+  height: 820px;
+  background: transparent;
+}
+.login , .register{
+object-fit: cover;
+height: 770px;
+width: 750px;
+position: fixed;
+top: 65px;
+right: 1px;
+}
